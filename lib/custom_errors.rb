@@ -15,6 +15,8 @@ class Person
   end
   
   class PartnerError < StandardError
+    def message
+      "you must give the get_married method an"
   end
 
 end
